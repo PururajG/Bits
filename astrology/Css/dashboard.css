@@ -1,0 +1,450 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lobster Two', cursive;
+
+}
+
+::selection {
+    color: rgb(253, 253, 253);
+    background: #ffa393;
+}
+
+/* custom css */
+/* custom css */
+.text-orange {
+    color: #f78742;
+
+}
+
+.btn-orange {
+    background: #ff9800;
+    color: #fcf4f2 !important;
+    box-shadow: none !important;
+    border: 1px solid white;
+
+}
+
+
+/*------------------------------ ashboard header ------------------------------*/
+.phone-left-list .nav-list-btn {
+
+    display: none !important;
+
+}
+
+.phone-left-list .nav-list-btn:hover {
+    cursor: pointer;
+    color: #eeeeee;
+
+}
+
+
+.dashboard_header {
+    background: #fafff1;
+    overflow-x: hidden !important;
+
+}
+
+.dashboard_header .left-side-list {
+    background: #ffedb7;
+    height: 100vh;
+}
+
+/* --------left side navbar img--------  */
+.dashboard_header .left-side-list img {
+    width: 1.4rem;
+}
+
+
+.dashboard_header .left-side-list ul .active {
+    background: #FFC107;
+}
+
+.dashboard_header .left-side-list ul a {
+    font-size: 1rem;
+}
+
+.dashboard_header .left-side-list ul a li {
+    padding: 10px 8px !important;
+    background: #ff9e10;
+    background: linear-gradient(to bottom, #fd9c0a 80%, rgb(255, 208, 167) 20%);
+    border-radius: 5px 30px 30px 5px;
+    margin: 18px 5px 6px 5px !important;
+
+
+}
+
+.dashboard_header .left-side-list ul a li:hover {
+    background: #FFC107;
+}
+
+/*-------------------- astro dashboard page --------------------*/
+.right-side-contents {
+    margin: 18px;
+}
+
+.astro_dashboard .card {
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.astro_dashboard .card:hover {
+    cursor: pointer;
+    transition: all 0.52s;
+
+}
+
+.astro_dashboard img {
+    height: 110px;
+    width: 110px;
+    margin: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.661);
+
+}
+
+.astro_dashboard .card:hover img {
+    transform: scale(1.05);
+    transition: all 0.2s;
+
+}
+
+/* -------------------------make kundali page ----------------------- */
+
+.make_kundali {
+    background: url(../Img/contact\ bg.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.make_kundali .kundali-form {
+    background: rgb(234, 246, 255);
+    box-shadow: 0px 5px 2px orange;
+    animation: shadow_chenge 4s infinite linear;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+@keyframes shadow_chenge {
+    0% {
+        box-shadow: 0px 5px 2px 1px rgb(255, 171, 14);
+    }
+
+    50% {
+        box-shadow: 0px 5px 2px 1px rgb(160, 120, 98);
+
+    }
+
+    75% {
+        box-shadow: 0px 5px 2px 1px rgb(255, 74, 71);
+
+    }
+
+    100% {
+        box-shadow: 0px 5px 2px 2px rgb(191, 71, 255);
+
+    }
+}
+
+/* -------------------------match kundali page ----------------------- */
+.match_Kundali {
+    background: url(../Img/aa\ \(1\).gif ) no-repeat !important;
+    /* padding: 80px 0; */
+    /* background-position: center; */
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.match_Kundali::placeholder {
+    color: #c1752e !important;
+}
+
+
+/* ------------------------- d_horoscops page ----------------------- */
+
+.d_horoscops .card {
+    border-radius: 10px !important;
+    border: 1px solid rgba(0, 0, 0, 0.603) !important
+}
+
+.d_horoscops .active_card {
+    background: linear-gradient(179deg, rgb(193 255 230), #ffe999);
+
+}
+
+.d_horoscops .card:hover {
+    background: linear-gradient(179deg, rgb(193 255 230), #ffe999);
+    cursor: pointer;
+}
+
+.d_horoscops .card .card-body p {
+    text-align: justify;
+    font-size: 0.98rem;
+    /* font-family: serif; */
+}
+
+.d_horoscops .image {
+    height: 70px;
+    width: 80px;
+    border-radius: 10px;
+    background: orange;
+}
+
+.d_horoscops .image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background: orange;
+}
+
+.d_horoscops .nav-link {
+    color: black;
+}
+
+/* ------------------------- d_book_pooja page ----------------------- */
+.d_book_pooja .card img {
+    height: 200px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.d_book_pooja .card:hover {
+    background: rgb(255, 220, 155) !important;
+    cursor: pointer;
+}
+
+.d_book_pooja .card:hover .list-group-item {
+    background: rgb(255, 220, 155) !important;
+}
+
+
+
+/* ------------------------- products page  ----------------------- */
+
+/* #================# custom css btn #================#  */
+.btn-outline-orange {
+    border: 1px solid #ff9800;
+    color: #d48206;
+
+}
+
+.btn-outline-orange:hover {
+    border: 1px solid white;
+    color: white;
+    background: #ff9800;
+}
+
+
+
+.d_products .card { 
+    border-radius: 20px;
+    border: 1px solid darkblue; 
+    overflow: hidden;
+
+}
+
+.d_products .card:hover {
+    transition: all 0.52s;
+    cursor: pointer;
+}
+
+.d_products .card:hover img {
+    transform: translateY(-8px);
+    transition: all 0.2s;
+}
+
+.d_products .card .card-body {
+    border-top: 1px solid rgba(0, 0, 0, 0.176);
+    border-radius: 0px 0px 20px 20px;
+}
+
+.d_products img {
+    border-radius: 20px 20px 0px 0px;
+
+    height: 180px;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+/* ------------------------- d admin  profile page ----------------------- */
+
+.d_admin_profile {
+    background: hsl(21, 100%, 97%);
+}
+
+.d_admin_profile .active {
+    color: #c1752e !important;
+}
+
+.d_admin_profile .left-side div {
+    position: relative;
+}
+
+.d_admin_profile .left-side .edit-pic {
+    position: absolute;
+    top: 90px;
+    right: 19%;
+    /* display: none; */
+}
+
+
+/* ------------------------- d orders page ----------------------- */
+.d_orders_profile img {
+    width: 100%;
+}
+
+
+/* ------------------------- messenger chat box page  -----------------------*/
+.chatbox .mesg-body .user-messege {
+    overflow-y: scroll;
+    height: 400px;
+}
+
+
+/* 000000----------  scrollbar modifies css start---------- 0000000 */
+
+.chatbox .mesg-body .user-messege::-webkit-scrollbar {
+    width: 16px;
+}
+
+.chatbox .mesg-body .user-messege::-webkit-scrollbar-track {
+    background: #eeeeee;
+}
+
+.chatbox .mesg-body .user-messege::-webkit-scrollbar-track:hover {
+    color: rgb(0, 255, 132);
+    background: #f1d2d2;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.chatbox .mesg-body .user-messege::-webkit-scrollbar-thumb {
+    background-color: #ffaeae;
+    box-shadow: 0 -100vh 0 100vh var(--shadow), 0 0 15px 5px black;
+}
+
+.chatbox .mesg-body .user-messege::-webkit-scrollbar-thumb:hover {
+    background: #c86c6c;
+}
+
+/* 000000----------  scrollbar modifies   css end---------- 0000000 */
+
+
+
+/* ---------------ChatBOx Messege header start----------------- */
+
+.chatbox .mesg-header {
+    background-color: #ff9e10;
+
+}
+
+.chatbox .mesg-header img {
+    height: 80px !important;
+    width: 80px !important;
+
+}
+
+/* ---------header call icons--------- */
+
+.header-icon i:hover {
+    color: rgb(132, 132, 132);
+    cursor: pointer;
+
+}
+
+/* --------------------ChatBOx Messege body start----------------------- */
+
+/* recieved mesg by user */
+
+.recieved-mesg {
+    display: flex;
+    justify-content: start;
+    padding: 5px;
+    margin: 1px 15px;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.user-messege img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.user-msg-text p {
+    font-size: 0.97rem;
+}
+
+.user-messege .user-msg-text {
+    background: #f0efef;
+    border-radius: 20px;
+    width: 80%;
+    text-align: start;
+    padding: 10px 20px;
+    transition: all 0.2s;
+}
+
+.user-messege .user-msg-text .mesg-time {
+    font-size: 0.6rem;
+    color: darkblue;
+    text-align: end;
+
+}
+
+.user-msg-text:hover {
+    box-shadow: 0px 0px 5px 0px black;
+}
+
+/*------- send messege the astrologer------- */
+
+.sent-mesg {
+    margin: 0px 15px;
+    padding: 5px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.sent-mesg img {
+    height: 40px !important;
+    width: 40px !important;
+}
+
+.sent-mesg .user-msg-text {
+    background-color: rgb(255, 231, 209);
+
+}
+
+/* --------------------ChatBOx Messege footer start----------------------- */
+
+.chatbox .mesg-footer {
+    background-color: #ffcba5;
+}
+
+.footer-icons i {
+    margin: 0.4rem;
+    cursor: pointer;
+    color: rgb(56, 56, 56);
+    font-size: 1.3rem;
+}
+
+.mesg-footer input {
+    border-radius: 30px;
+    font-size: 1rem;
+    box-shadow: none !important;
+}

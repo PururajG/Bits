@@ -1,0 +1,271 @@
+/*--------------- -css for Large devices--------------------------------*/
+@media only screen and (max-width:992px) {
+
+
+    .phone-navigation {
+        display: block;
+    }
+
+
+    .nav-login {
+        display: none;
+    }
+
+    video {
+        height: 145vh;
+    }
+
+    .header {
+        height: 100%;
+    }
+
+    .header-content {
+        padding: 40px 0px;
+    }
+
+    .header-content .left-side {
+        text-align: center;
+    }
+
+    .header-content .left-side h1 {
+        font-size: 2.5rem;
+    }
+
+
+    .header-content .left-side p {
+        font-size: 1rem;
+    }
+
+    /* section  heading text */
+
+    .section-heading h2 {
+        font-size: 3rem;
+        top: -15px;
+        letter-spacing: 2px;
+        /* z-index: -1; */
+    }
+
+
+    /* about section */
+    .about-section .left-side p {
+        font-size: 0.8rem;
+    }
+
+
+    .Symbol-section .card h4 {
+        font-size: 1.1rem;
+    }
+
+    .Symbol-section .card span {
+        font-size: 0.7rem;
+        padding: 0.19rem 0.3rem !important;
+
+    }
+
+    .footer {
+        margin-bottom: 5rem;
+
+    }
+
+
+    /* =============================== DASHBOARD RESPONSIVEW CSS START ==================================== */
+
+
+    .phone-left-list .nav-list-btn {
+
+        display: block !important;
+
+    }
+ 
+
+
+}
+
+/*--------------- -css for Medium devices--------------------------------*/
+
+@media only screen and (max-width:768px) {
+
+
+    video {
+        height: 130vh;
+    }
+
+    .slide-content {
+        margin: 0 10px;
+    }
+
+    .swiper-navBtn {
+        display: none;
+    }
+
+
+
+    /* --------after login/ uer login page css --------*/
+
+
+    .carousel-caption {
+        position: absolute;
+        top: 30%;
+        left: 10%;
+        text-align: start !important;
+        /* font-family: 'Times New Roman', Times, serif; */
+        font-family: cursive;
+
+    }
+
+    .slider1-text {
+        position: absolute;
+        top: 0%;
+        /* left: 20%; */
+        text-align: center;
+    }
+
+    .slider2-text {
+        position: absolute;
+        top: 0%;
+        left: 5%;
+        text-align: center;
+
+    }
+
+    .slider3-text {
+        position: absolute;
+        top: 0%;
+        left: 2%;
+        text-align: center;
+    }
+
+
+    .slider4-text {
+        position: absolute;
+        top: 0%;
+        left: 0%;
+
+    }
+
+
+
+    .header-content h1 {
+        font-size: 2.2rem;
+    }
+
+
+    .header-content p {
+        /* text-shadow: 2px 2px 2px rgb(0, 0, 0); */
+        font-size: 0.9rem;
+    }
+
+
+    /* =============================== DASHBOARD RESPONSIVEW CSS START ==================================== */
+
+
+
+}
+
+
+/*--------------- -css for Medium devices--------------------------------*/
+
+@media only screen and (max-width:576px) {
+
+
+    .header-content .left-side h1 {
+        font-size: 2rem;
+    }
+
+
+    .header-content .left-side p {
+        font-size: 0.8rem;
+    }
+
+    /* section  heading text */
+
+    .section-heading h2 {
+        font-size: 3rem;
+        top: -15px;
+        letter-spacing: 2px;
+        /* z-index: -1; */
+    }
+
+
+    /* about section */
+    .about-section .left-side p {
+        font-size: 0.8rem;
+    }
+
+
+    /* --------after login/ uer login page css --------*/
+
+    .carousel-caption {
+        position: absolute;
+        top: 20%;
+        left: 10%;
+        text-align: start !important;
+        /* font-family: 'Times New Roman', Times, serif; */
+        font-family: cursive;
+
+    }
+
+    .slider1-text {
+        position: absolute;
+        top: 0%;
+        /* left: 20%; */
+        text-align: center;
+    }
+
+    .slider2-text {
+        position: absolute;
+        top: 0%;
+        left: 5%;
+        text-align: center;
+
+    }
+
+    .slider3-text {
+        position: absolute;
+        top: 0%;
+        left: 2%;
+        text-align: center;
+    }
+
+
+    .slider4-text {
+        position: absolute;
+        top: 0%;
+        left: 0%;
+
+    }
+
+
+    .header-content h1 {
+        font-size: 1.8rem;
+    }
+
+    .header-content p {
+        font-size: 0.9rem;
+    }
+
+    /* =============================== DASHBOARD RESPONSIVEW CSS START ==================================== */
+
+/* ------------------------- d_horoscops page ----------------------- */
+
+
+    .d_horoscops .card .card-body p {
+        text-align: justify;
+        font-size: 0.9rem;
+    }
+
+}
+
+@media only screen and (max-width:525px) {
+    .header-content {
+        padding: 60px 0px;
+    }
+
+}
+
+@media only screen and (max-width:395px) {
+    .header-content {
+        padding: 80px 0px;
+    }
+
+}
